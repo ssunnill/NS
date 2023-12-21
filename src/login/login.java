@@ -20,7 +20,7 @@ public class login {
 		co.addArguments("--remote-allow-origins=*");
 		WebDriverManager.chromedriver().setup();
 				WebDriver driver = new ChromeDriver(co);
-				driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+				driver.manage().timeouts().implicitlyWait (100, TimeUnit.SECONDS);
 		driver.get("https://ehrapp.eclipseehrcloud.net/");
 		
 		String expectedtitle = "Choose your account";
