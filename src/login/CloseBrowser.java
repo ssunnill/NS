@@ -1,2 +1,4 @@
-package login;public class CloseBrowser {
+package login;
+
+public class CloseBrowser {
 }
