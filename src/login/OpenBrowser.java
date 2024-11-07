@@ -1,2 +1,6 @@
-package login;public class OpenBrowser {
+package login;
+
+public class OpenBrowser {
+
+
 }
